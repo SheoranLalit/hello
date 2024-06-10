@@ -2,8 +2,8 @@
 This Solidity program represents a contract designed to create a token and distribute it to users/addresses. It is my final project for the Metacrafters ETH Beginner course.
 ## DISCRIPTION 
 This program is a Solidity smart contract, commonly utilized for creating smart contracts on the Ethereum blockchain. It comprises three state variables responsible for storing information about the coin, such as its name, abbreviation, and total supply. Additionally, it includes two functions: Mint and Burn. The Mint function enables the addition of more tokens to the total supply and the balance, allowing the transfer of tokens to addresses. Conversely, the Burn function facilitates the removal of tokens from both the total supply and the balance. Furthermore, I've implemented a validation check ensuring that if the user's current balance is insufficient for the requested burn amount, the transaction will fail.
-### GETTING STARTED 
-EXECUTING PROGRAM
+## GETTING STARTED 
+### EXECUTING PROGRAM
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
@@ -58,7 +58,7 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
 
 Once the contract is deployed, you can interact with it by calling the available functions. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "totalSupply" function to see the total supply of the token. Execute different functions and try out the contract.
-### AUTHORS 
+## AUTHORS 
 LALIT KUMAR
-### LICENSE 
+## LICENSE 
 This project is licensed under the MIT License - see the LICENSE.txt file for details
